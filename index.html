@@ -5,30 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
         <title>Template 1</title>
-        <link rel="stylesheet" href="static/css/bootstrap.css">
-        <link rel="stylesheet" href="static/css/fontawesome.css">
-        <link rel="stylesheet" href="static/css/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/main.css">
 
-        <script src="static/js/jquery.js"></script>
-        <script src="static/js/bootstrap.bundle.js"></script>
-        <script src="https://kit.fontawesome.com/77347d5e34.js" crossorigin="anonymous"></script>
-        <script src="static/js/main.js"></script>    
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://pagecdn.io/lib/popper/2.4.4/umd/popper.min.js" crossorigin="anonymous"  ></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!--script src="https://kit.fontawesome.com/77347d5e34.js" crossorigin="anonymous"></script-->
+        <script src="/static/js/main.js"></script>    
     </head>
     <body>
         <nav class="navbar navbar-expand-lg">
-            <a href="index.html" class="navbar-brand">
-                <img class="rounded" src="favicon.ico">
+            <a href="/" class="navbar-brand">
+                brand
             </a>
 
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
-                <span>
-                <i class="fa fa-bars"></i>
+                <span class="navbar-toggler-icon">
                 </span>
             </button>
             <div class="collapse navbar-collapse" id="navCollapse">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">
+                        <a href="/" class="nav-link">
                             home
                         </a>
                     </li>
@@ -94,61 +93,37 @@
         </div>
         <section id="about">
             <div class="container-fluid">
-                <div id="who-i-am" class="row about">
-                   <div id="head">
-                    <header>
+                <div class="row">
+                    <header id="who-i-am" class="text-center">
                         <h1>who i am</h1>
                     </header>
-                   </div>
-                    <div id="profile-box">
-                        <div class="image-box text-center">
-                
+                    <div class="col-md-6">
+                        <div id="profile-short">
+                            <div id="image"></div>
+                            <div id="name">
+                                <p>developer name</p>
+                            </div>
+                            <div id="role">
+                                <p>developer role</p>
+                            </div>
+                            <div id="since">
+                                since 2020
+                            </div>
                         </div>
-                        <p id="name">designer <span>name</span></p>
-                        <p id="since">web developer since 2019</p>
                     </div>
-                    <div id="description-box">
-                        <h2>profile</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Temporibus error quam mollitia quidem porro, sit ipsum, 
-                            incidunt cum aut reiciendis, consequatur ullam illo sunt
-                            numquam quos ab hic commodi veritatis!
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Earum excepturi nemo, voluptates odio veniam, delectus 
-                            consectetur nisi voluptatum hic reiciendis magnam blanditiis 
-                            et harum? Deserunt repellat molestias nam cupiditate ipsum?
-                        </p>
+                    <div class="col-md-6">
+                        <div id="profile-long">
+                            <h1>profile</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Doloribus at nostrum porro dolorem quaerat distinctio unde molestias, 
+                                laborum explicabo autem minus quas beatae quae accusantium reiciendis 
+                                itaque ratione doloremque dolores!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="services">
-            <div class="container-fluid">
-                <div id="what-i-do" class="row services">
-                   <div id="head">
-                    <header>
-                        <h1>what i do</h1>
-                    </header>
-                   </div>
-                   
-                </div>
-            </div>
-        </section>
-        <section id="contact">
-            <div class="container-fluid">
-                <div class="row contact">
-                    <div id="head">
-                        <header>
-                            <h1>contact</h1>
-                        </header>
-                    </div>
-                </div>
-            </div>
-        </section>
- 
+        
     </body>
-   <footer>
-        <i class="fa fa-copyright" aria-hidden="true"><span>&nbsp;2020 &nbsp; website name</span></i>
-    </footer>
 </html>
