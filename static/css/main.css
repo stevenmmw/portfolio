@@ -55,14 +55,15 @@ body{
     font-weight: bold;
     color:white;
 
-    border:2px white solid;
-    box-shadow:2px 2px 5px white;
-
     text-align:center;
     text-decoration: none;
     text-transform: uppercase;
 
     z-index:1;
+}
+#small-box{
+    border:2px white solid;
+    box-shadow:2px 2px 5px white;
 }
 #btn-top{
     z-index:2;
