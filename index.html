@@ -5,34 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
         <title>Template 1</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
         <link rel="stylesheet" href="./static/css/main.css">
         <link rel="stylesheet" href="./static/css/media-query.css">
 
-        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <script src="https://pagecdn.io/lib/popper/2.4.4/umd/popper.min.js" crossorigin="anonymous"  ></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="https://kit.fontawesome.com/77347d5e34.js" crossorigin="anonymous"></script>
+        <script src="/static/js/jquery.js"></script>
+        <script src="/static/js/popper.min.js" crossorigin="anonymous"  ></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <!--script src="https://kit.fontawesome.com/77347d5e34.js" crossorigin="anonymous"></script-->
         <script src="./static/js/main.js"></script>    
     </head>
     <body>
-        <nav class="navbar navbar-expand-md  fixed-top">
-            <a href="https://stevenmmw.github.io/portfolio" class="navbar-brand">
+        <nav class="navbar navbar-expand-md  bg-dark navbar-dark fixed-top">
+            <a href="index.html" class="navbar-brand">
                 brand
             </a>
 
             <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navCollapse">
-                <span >
-                    <i class="fa fa-bars" style="background-color: white;"></i>
+                <span class="navbar-toggler-icon">
+                    <!--i class="fa fa-bars" style="background-color: white;"></i-->
                 </span>
             </button>
             <div class="collapse navbar-collapse" id="navCollapse">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="https://stevenmmw.github.io/portfolio" class="nav-link">
+                        <a href="index.html" class="nav-link">
                             home
                         </a>
                     </li>
+                     <li class="nav-item">
+                        <a href="#services" class="nav-link">services</a>
+                     </li>
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link">
                             portfolio
@@ -41,6 +44,7 @@
                     <li class="nav-item">
                        <a href="#about" class="nav-link">about</a>
                     </li>
+                   
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">
                             contact
@@ -65,9 +69,51 @@
             </div>
         </div>
 
-        <section id="about" class="container-fluid">
+       <div id="about" class="container section">
            <div class="row">
-           </div>                    
-        </section>
+               <div class="col-sm-12">
+                   <div id="head" class="text-center">
+                       <h1>who i am</h1>
+                   </div>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-md-6">
+                    <div id="profile">
+                        <div id="profile-image"></div>
+                        <h4>James Franco</h4>
+                        <p>web developer</p>
+                        <p>since </p>
+                    </div>
+               </div>
+               <div class="col-md-6 text-right">
+                   <div id="profile-box">
+                      <div id="profile-head" class="text-center">
+                        <h3>profile</h3>
+                      </div>
+                      <div id="profile-body" class="text-left">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Corporis, ipsum ut autem iste suscipit voluptates eligendi
+                            at soluta porro repellat maxime et eum, architecto odio
+                            repellendus! Eveniet consequatur dolore perspiciatis.
+                         </p>
+                      </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div id="services" class="container section">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="head" class="text-center">
+                    <h1>what i do</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           
+        </div>
+    </div>
     </body>
 </html>

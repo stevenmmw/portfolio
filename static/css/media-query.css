@@ -19,6 +19,36 @@
        padding-top: 5px;
        font-size:25px;
    }
+   
+#head{
+    margin-top: 60px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#profile{
+    display:block;
+    margin-top:0px;
+    width:100%;
+    height:auto;
+
+    text-align:center;
+}
+#profile-image{
+    width:100px;
+    height:100px;
+    margin-top:10px;
+    margin-left:25%;
+}
+#profile h4{
+    text-decoration:none;
+    text-transform: capitalize;
+}
+#profile p{
+    font-weight: 500;
+    text-decoration:none;
+    text-transform: capitalize;
+}
 }
 @media only screen and (min-width:320px){
     #big-box{
@@ -40,6 +70,35 @@
            padding-top: 5px;
            font-size:25px;
        }
+
+         
+#head{
+    margin-top: 60px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#profile{
+    display:block;
+    margin-top:0px;
+    width:100%;
+    height:auto;
+}
+#profile-image{
+    width:100px;
+    height:100px;
+    margin-top:15px;
+    margin-left:32%;
+}
+#profile h4{
+    text-decoration:none;
+    text-transform: capitalize;
+}
+#profile p{
+    font-weight: 500;
+    text-decoration:none;
+    text-transform: capitalize;
+}
 }
 @media only screen and (min-width:400px)
 {
@@ -62,6 +121,41 @@
            padding-top: 5px;
            font-size:25px;
        }
+               
+#head{
+    margin-top: 60px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#profile{
+    display:block;
+    margin-top:0px;
+    width:100%;
+    height:auto;
+}
+#profile-image{
+    width:100px;
+    height:100px;
+    margin-top:15px;
+    margin-left:35%;
+}
+#profile h4{
+    text-decoration:none;
+    text-transform: capitalize;
+}
+#profile p{
+    font-weight: 500;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+#profile-head{
+    margin-top:20px;
+    font-size:25px;
+}
+#profile-body{
+    font-size:20px;
+}
 }
 @media only screen and (min-width:480px){
     #big-box{
@@ -83,6 +177,42 @@
            padding-top: 5px;
            font-size:25px;
        }     
+
+       #head{
+        margin-top: 60px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    
+    #profile{
+        display:block;
+        margin-top:0px;
+        width:100%;
+        height:auto;
+    }
+    #profile-image{
+        width:120px;
+        height:120px;
+        margin-top:15px;
+        margin-left:38%;
+        border-radius: 100px;
+    }
+    #profile h4{
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile p{
+        font-weight: 500;
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile-head{
+        margin-top:20px;
+        font-size:25px;
+    }
+    #profile-body{
+        font-size:20px;
+    }
 }
 @media only screen and (min-width:560px){
     #big-box{
@@ -104,6 +234,42 @@
            padding-top: 5px;
            font-size:25px;
        }
+       #head{
+        margin-top: 60px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    
+    #profile{
+        display:block;
+        margin-top:0px;
+        width:100%;
+        height:auto;
+        text-align:center;
+    }
+    #profile-image{
+        width:120px;
+        height:120px;
+        margin-top:15px;
+        margin-left:40%;
+        border-radius: 100px;
+    }
+    #profile h4{
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile p{
+        font-weight: 500;
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile-head{
+        margin-top:20px;
+        font-size:25px;
+    }
+    #profile-body{
+        font-size:20px;
+    }
 }
 @media only screen and (min-width:640px){
     #big-box{
@@ -129,16 +295,14 @@
       
 
 }
-@media only screen and (min-width:720px){
-    #big-box{
-        
+@media only screen and (min-width:768px){
+    #big-box{        
         top:15%;
         left:10%;
         width:80%;
         height:75%;    
        }
-       #small-box, #btn-top{
-        
+       #small-box, #btn-top{        
         top:50%;
         left:40%;
         width:160px;
@@ -149,6 +313,48 @@
            padding-top: 5px;
            font-size:25px;
        }
+       #head{
+        margin-top: 60px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }    
+    #profile{
+        display:block;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+
+        text-align:left;
+    }
+    #profile-image{
+        width:150px;
+        height:150px;
+        margin-top:15px;
+        margin-left:0%;
+        border-radius: 130px;
+    }
+    #profile h4{
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile p{
+        font-weight: 500;
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile-box{
+        display: block;
+        margin-top:20%;
+    }
+    #profile-head{
+        margin-top:20px;
+    }
+    #profile-head h3{
+        font-size:30px;
+    }
+    #profile-body{
+        font-size:20px;
+    }
 }
 @media only screen and (min-width:800px){
     #big-box{
@@ -170,6 +376,47 @@
            padding-top: 5px;
            font-size:25px;
        }
+       #head{
+        margin-top: 60px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    
+    #profile{
+        display:block;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+        text-align:left
+    }
+    #profile-image{
+        width:150px;
+        height:150px;
+        margin-top:15px;
+        margin-left:0%;
+
+        border-radius: 130px;
+    }
+    #profile h4{
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile p{
+        font-size:20px;
+        font-weight: 500;
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile-box{
+        margin-top:20%;
+    }
+    #profile-head{
+        margin-top:20px;
+        font-size:25px;
+    }
+    #profile-body{
+        font-size:20px;
+    }
 }
 @media only screen and (min-width:880px){
     #big-box{
@@ -191,6 +438,43 @@
         width:160px;
         font-size:25px;
        }
+
+       #profile{
+        display:block;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+
+        text-align:left;
+    }
+    #profile-image{
+        width:180px;
+        height:180px;
+        margin-top:15px;
+        margin-left:0%;
+
+        border-radius: 160px;
+    }
+    #profile h4{
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile p{
+        font-size:20px;
+        font-weight: 500;
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile-box{
+        margin-top:20%;
+    }
+    #profile-head{
+        margin-top:20px;
+        font-size:25px;
+    }
+    #profile-body{
+        font-size:20px;
+    }
 }
 @media only screen and (min-width:960px)
 {
@@ -209,4 +493,43 @@
         padding-top: 5px;
         font-size:25px;
        }
+
+       #profile{
+        display:block;
+        margin-top:20%;
+        width:100%;
+        height:auto;
+
+        text-align:left;
+    }
+    #profile-image{
+        width:200px;
+        height:200px;
+        margin-top:15px;
+        margin-left:0%;
+
+        border-radius: 180px;
+    }
+    #profile h4{
+        padding-top:20px;
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile p{
+        font-size:20px;
+        font-weight: 500;
+        text-decoration:none;
+        text-transform: capitalize;
+    }
+    #profile-box{
+        margin-top: 20%;
+    }
+    #profile-head{
+        margin-top:20px;
+        font-size:25px;
+    }
+    #profile-body{
+        text-align:left;
+        font-size:20px;
+    }
 }
