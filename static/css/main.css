@@ -49,22 +49,20 @@ body{
 
     border:2px white solid;
     box-shadow:2px 2px 5px white;
+    z-index:1;
 }
 #small-box, #btn-top{
     position:absolute;
     width:180px;
-    height:auto;
-
+    height:50px;
+}
+#btn-top{
     font-weight: bold;
     color:white;
 
     text-align:center;
     text-decoration: none;
     text-transform: uppercase;
-
-    z-index:1;
-}
-#btn-top{
     z-index:2;
 }
 #btn-top h1{
