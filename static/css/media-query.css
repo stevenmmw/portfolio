@@ -32,7 +32,7 @@
         
         top:50%;
         left:25%;
-        width:160px;
+        width:150px;
         height:auto;
         z-index:1;
        }
@@ -82,7 +82,7 @@
        #btn-top h1{
            padding-top: 5px;
            font-size:25px;
-       }
+       }     
 }
 @media only screen and (min-width:560px){
     #big-box{
@@ -125,6 +125,9 @@
            padding-top: 5px;
            font-size:25px;
        }
+
+      
+
 }
 @media only screen and (min-width:720px){
     #big-box{

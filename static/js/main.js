@@ -1,3 +1,3 @@
 function navigate(e){
-    //Implement navigation
+    // Navigation function
 }
