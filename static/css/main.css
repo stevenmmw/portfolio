@@ -64,6 +64,9 @@ body{
 
     z-index:1;
 }
+#btn-top{
+    z-index:2;
+}
 #btn-top h1{
     padding-top: 5px;
 }
