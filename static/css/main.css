@@ -47,7 +47,7 @@ body{
     filter:blur(2px);
     -webkit-filter: blur(2px);
 }
-#small-box #btn-top{
+#small-box, #btn-top{
     position:absolute;
     width:180px;
     height:auto;
