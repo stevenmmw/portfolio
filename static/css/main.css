@@ -43,6 +43,12 @@ body{
     /**border:1px white solid;
     box-shadow: 1px 1px 2px white;**/
 }
+
+#small-box, #btn-top{
+    position:absolute;
+    width:180px;
+    height:70px;
+}
 #small-box{
     filter:blur(2px);
     -webkit-filter: blur(2px);
@@ -50,11 +56,6 @@ body{
     border:2px white solid;
     box-shadow:2px 2px 5px white;
     z-index:1;
-}
-#small-box, #btn-top{
-    position:absolute;
-    width:180px;
-    height:70px;
 }
 #btn-top{
     font-weight: bold;
