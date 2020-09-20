@@ -36,16 +36,18 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter:blur(2px);
-    -webkit-filter: blur(2px);
 }
 #big-box{
     position:absolute;
     
-    border:1px white solid;
-    box-shadow: 1px 1px 2px white;
+    /**border:1px white solid;
+    box-shadow: 1px 1px 2px white;**/
 }
-#btn-top{
+#small-box{
+    filter:blur(2px);
+    -webkit-filter: blur(2px);
+}
+#small-box #btn-top{
     position:absolute;
     width:180px;
     height:auto;
