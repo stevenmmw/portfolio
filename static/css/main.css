@@ -46,6 +46,9 @@ body{
 #small-box{
     filter:blur(2px);
     -webkit-filter: blur(2px);
+
+    border:2px white solid;
+    box-shadow:2px 2px 5px white;
 }
 #small-box, #btn-top{
     position:absolute;
@@ -60,10 +63,6 @@ body{
     text-transform: uppercase;
 
     z-index:1;
-}
-#small-box{
-    border:2px white solid;
-    box-shadow:2px 2px 5px white;
 }
 #btn-top{
     z-index:2;
