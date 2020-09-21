@@ -63,20 +63,26 @@ body{
 }
 .section{
     height:100vh;
+
+    border-bottom:1px green solid;
+    padding-bottom: 0px;
 }
 #head{
-    margin-top: 80px;
+    position:relative;
+    margin-top: 10%;
     text-decoration: none;
     text-transform: capitalize;
 }
 
 #profile{
+    position: relative;
     display:block;
     margin-top:10%;
     width:100%;
     height:auto;
 }
 #profile-image{
+    position: relative;
     width:100px;
     height:100px;
     margin-top:30px;
@@ -90,36 +96,62 @@ body{
     border-radius: 80px;
 }
 #profile h4{
+    position: relative;
     font-weight:bold;
     text-decoration:none;
     text-transform: capitalize;
 }
 #profile p{
+    position: relative;
     font-weight: 700;
     text-decoration:none;
     text-transform: capitalize;
 }
 
 #profile-box{
+    position: relative;
    display:block;
    width:100%;
    height:auto;
    text-decoration: none;
 }
 #profile-head{
+    position: relative;
     display: block;
     text-decoration: none;
 }
 #profile-head h3{
+    position: relative;
     font-weight: bold;
     text-transform: capitalize;
     text-align: center;
     padding-bottom:10px;
 }
 #profile-body{
+    position: relative;
     border: 2px rgb(235, 242, 152) solid;
     
 }
 #profile-body p{
+    position: relative;
     padding-left:10px;
+}
+
+#clients .row div #head, #about .row div #head, #services .row div #head{
+    margin-top:80px;
+}
+.service-image{
+    position: relative;
+    width:250px;
+    height:250px;
+    margin-left:25%;
+    border:10px pink solid;
+    border-radius:20px;
+}
+.card-footer{
+    position: relative;
+    background-color: #fff;
+    border-top:#fff;
+
+    text-align:center;
 }

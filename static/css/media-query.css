@@ -22,6 +22,7 @@
    
 #head{
     margin-top: 60px;
+    font-size: 18px;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -49,6 +50,28 @@
     text-decoration:none;
     text-transform: capitalize;
 }
+#services,#clients{
+    margin-top:0%;
+ }
+#service{
+    border-bottom:2px gainsboro solid;
+
+}
+#service-image{
+  
+    width:100px;
+    height:100px;
+    margin-left:35px;
+    border:5px pink solid;
+    border-radius:20px;
+}
+.card-footer{
+    background-color: #fff;
+    border-top:#fff;
+
+    text-align:center;
+}
+
 }
 @media only screen and (min-width:320px){
     #big-box{
@@ -99,6 +122,29 @@
     text-decoration:none;
     text-transform: capitalize;
 }
+
+#services,#clients{
+    margin-top:0%;
+ }
+#service{
+    border-bottom:2px gainsboro solid;
+
+}
+#service-image{
+  
+    width:100px;
+    height:100px;
+    margin-left:40%;
+    border:5px pink solid;
+    border-radius:20px;
+}
+.card-footer{
+    background-color: #fff;
+    border-top:#fff;
+
+    text-align:center;
+}
+
 }
 @media only screen and (min-width:400px)
 {
@@ -156,6 +202,28 @@
 #profile-body{
     font-size:20px;
 }
+
+#services,#clients{
+    margin-top:0%;
+ }
+ #service{
+    border-bottom:2px gainsboro solid;
+
+}
+#service-image{
+  
+    width:100px;
+    height:100px;
+    margin-left:35%;
+    border:5px pink solid;
+    border-radius:20px;
+}
+.card-footer{
+    background-color: #fff;
+    border-top:#fff;
+
+    text-align:center;
+}
 }
 @media only screen and (min-width:480px){
     #big-box{
@@ -212,6 +280,21 @@
     }
     #profile-body{
         font-size:20px;
+    }
+
+    #services{
+        height:110vh;
+    }
+    div div div #head{
+        margin-top:15%;
+    }
+   .service-image{
+  
+        width:150px;
+        height:150px;
+        margin-left:30%;
+        border:5px pink solid;
+        border-radius:20px;
     }
 }
 @media only screen and (min-width:560px){
@@ -355,6 +438,18 @@
     #profile-body{
         font-size:20px;
     }
+    
+    #services .row div #head, #clients .row div #head {
+        margin-top:12%;
+        padding-bottom:4rem;
+
+        text-align:center;
+    }
+   .service-image{
+        margin-left:0%;
+        width:200px;
+        height:200px;
+    }
 }
 @media only screen and (min-width:800px){
     #big-box{
@@ -416,6 +511,10 @@
     }
     #profile-body{
         font-size:20px;
+    }
+
+    .service-image{
+        margin-left:20%;
     }
 }
 @media only screen and (min-width:880px){
